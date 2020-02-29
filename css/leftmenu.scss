@@ -1,0 +1,20 @@
+.left-menu{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 234px;
+  height: 220px;
+  .sroll-content {
+    height: 100%;
+    overflow-y: auto;
+    .item {
+      display: flex;
+      cursor: pointer;
+      height: 50px;
+      align-items: center;
+      padding-left: 10px;
+    }
+    .disibled{
+      pointer-events: none;
+    }
+  }
+}

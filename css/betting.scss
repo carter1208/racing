@@ -1,0 +1,65 @@
+.betting{
+  width: 830px;
+  background-color: white;
+  z-index: 2;
+  top: 530px;
+  margin-right: 2px;
+  height: 240px;
+  button{
+    color:#545454;
+    background-color: #eeeeee;
+    border-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    outline: none;
+    min-width: 125px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-left: 12px;
+    .img{
+      width: 12px;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+  #dt{
+    width: 160px;
+  }
+  #sum2{
+    width: 185px;
+  }
+  #sum3{
+    width: 235px;
+  }
+  .active{
+    color:white;
+    background-color: #db2222;
+    border-color: #db2222;
+  }
+  .btn-confirm{
+    display: flex;
+    width: 830px;
+    button{
+      background-color: #db2222;
+      color: white;
+      border: 1px solid #da2222;
+      border-radius: 6px;
+      font-size: 10pt;
+      min-width: 100px;
+    }
+    .control{
+      width:60%;
+      text-align: right;
+    }
+    .setting{
+      width: 38%;
+      text-align: right;
+    }
+    #quick{
+      right: 10px;
+      background-color: #5e5e5e;
+      border: 1px solid #545454;
+    }
+  }
+}

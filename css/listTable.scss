@@ -1,0 +1,25 @@
+.list-tb{
+  height: 100%;
+  padding: 0;
+  margin: 20px;
+  justify-content: center;
+  .table-row{
+    display: flex;
+    .tb-lo{
+      cursor: pointer;
+      width: 662px;
+      height: 290px;
+      .logo{
+        padding-top: 10px;
+        padding-left: 130px;
+        height: 50px;
+      }
+    }
+  }
+  .space-x {
+    width: 40px;
+  }
+  .space-y {
+    height: 40px;
+  }
+}

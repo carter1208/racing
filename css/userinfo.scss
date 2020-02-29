@@ -1,0 +1,59 @@
+.user-info {
+  color: #fff;
+  font-size: 14pt;
+  display: flex;
+  outline: none;
+  line-height: 60px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  .userName{
+    width: 55%;
+    text-align: center;
+  }
+  .userItem{
+    cursor: pointer;
+    outline: none;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    .txt {
+      .bal{
+        height: 55px;
+      }
+      .bonus {
+        width: 140px;
+        color: gold;
+        border-radius: 6px;
+        opacity: 0;
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        z-index: 1;
+        background-color: #8D0D0D;
+        .tooltiptext{
+          height: 0;
+        }
+        .tooltiptext::after{
+          top: -38px;
+          left: 38px;
+          content: " ";
+          position: relative;
+          border-width: 8px;
+          border-style: solid;
+          border-color: transparent transparent #9B0D0D transparent;
+        }
+      }
+
+      .bonus.active {
+        opacity: 1;
+      }
+      .bonus:before {
+        opacity: 1;
+      }
+    }
+  }
+}
