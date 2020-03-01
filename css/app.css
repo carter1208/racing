@@ -1,13 +1,16 @@
 .main-page {
+  margin: auto;
   background-color: #f5f5f5;
-  width: 1440px;
-  height: 940px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #545454; }
 
 .game {
   display: inherit;
-  height: 470px;
-  padding-top: 20px;
+  position: absolute;
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -21,8 +24,8 @@
   user-select: none;
   /* Non-prefixed version, currently supported by Chrome and Opera */ }
   .game .game-canvas-container {
-    z-index: 1;
-    position: absolute; }
+    alignment: center;
+    z-index: 1; }
   .game .dateTime {
     position: absolute;
     z-index: 2;
@@ -54,7 +57,7 @@
     z-index: 4;
     position: absolute;
     color: #545454;
-    top: 415px;
+    top: 395px;
     font-size: 18pt; }
     .game .stat span, .game .stat p {
       position: absolute; }
@@ -1641,3 +1644,5 @@
     .bet-detail-panel .detail-container ::-webkit-scrollbar-track-piece {
       height: 10px;
       width: 10px; }
+
+/*# sourceMappingURL=app.css.map*/
